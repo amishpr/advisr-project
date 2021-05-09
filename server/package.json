@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amishpr/advisr-applicant-project.git"
+  },
+  "keywords": [
+    "express.js"
+  ],
+  "author": "Amish Prajapati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amishpr/advisr-applicant-project/issues"
+  },
+  "homepage": "https://github.com/amishpr/advisr-applicant-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
