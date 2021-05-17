@@ -1,5 +1,5 @@
 # Advisr Applicant Project
-<img src="https://github.com/amishpr/advisr-project/blob/main/screenshots/advisr-logo-white.png" height="200">
+<img src="https://github.com/amishpr/advisr-project/blob/main/screenshots/advisr-logo-white.png" height="90">
 
 ## Overview
  This project takes JSON file with business data and returns it with Express.js and displays the data using Vue.js.
