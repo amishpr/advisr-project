@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amishpr/advisr-applicant-project.git"
+    "url": "git+https://github.com/amishpr/advisr-project.git"
   },
   "keywords": [
     "express.js"
@@ -16,9 +16,9 @@
   "author": "Amish Prajapati",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amishpr/advisr-applicant-project/issues"
+    "url": "https://github.com/amishpr/advisr-project/issues"
   },
-  "homepage": "https://github.com/amishpr/advisr-applicant-project#readme",
+  "homepage": "https://github.com/amishpr/advisr-project#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
