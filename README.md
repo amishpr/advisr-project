@@ -21,6 +21,20 @@
 ### Backend
 * [Express.js](https://expressjs.com/)
 
+
+## Screenshots
+
+### Home Screen
+
+![Home](https://github.com/amishpr/advisr-project/blob/main/screenshots/home.png)
+
+### Business Page
+
+![Business Page](https://github.com/amishpr/advisr-project/blob/main/screenshots/business_page.png)
+
+### Express.js Backend
+
+![Express.js Backend](https://github.com/amishpr/advisr-project/blob/main/screenshots/express.png)
 ## Initial Setup
 
 ### Clone This Repository
