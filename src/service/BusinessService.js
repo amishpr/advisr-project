@@ -1,6 +1,6 @@
 import axios from "axios";
-
-const BASE_URL = "http://localhost:3000/";
+const port = process.env.PORT || 8080 
+const BASE_URL = "http://localhost:" + port + "/";
 
 export default class BusinessService {
   getAllBusinesses() {
