@@ -36,7 +36,6 @@ app.component("TabMenu", TabMenu);
 app.component("Chip", Chip);
 app.component("Card", Card);
 
-// AIzaSyBH59pxqsaQjLHEz3n0cGJL_kjoeR77DV0
 // GoogleMaps
 app.use(VueGoogleMaps, { load: { key: '', }, });
 
