@@ -1,29 +1,83 @@
 # Advisr Applicant Project
 
-### Thanks for your interest in working with us at Advisr!
-In order to evaluate engineering candidates' skill sets, we provide this small sample project for candidates to complete. There are two components to implement, a backend API and a frontend web UI implementing the API.
+## Overview
+ This project takes JSON file with business data and returns it with Express.js and displays the data using Vue.js.
 
-## Requirements
-Provided in this repo is a json data file (business-list.json). This contains a list of businesses, the category associated with the business, an array of campaign objects associated with the business and a location specified in latitude and longitude for the business. This will be your "database" to be utilized in an API to power a frontend responsible for displaying a list of businesses and a detail page for individual businesses.
+## Features
 
-You should either fork this repo or create a new git repo to provide your own solution. The frontend should be built using Vue.js and the backend API should be built using Express.js. A README.md should be provided with instructions on how to build and run your API and frontend project.
+* View all businesses in data
+* Search and sort through fields of the business data
+* Displays a detailed page with all related business information including an interactive Google Map window
+* Calculate Sales Ve
 
-## Frontend requirements
-The frontend should be built using Vue.js and implement the following requirements:
+## Technologies
 
-1. Build a landing page which queries your API to render the business list as a table
-   1. The columns you should display are: Business Name, Category, Number of Campaigns, Average Campaign Budget
-   2. The list should be sortable by all columns by clicking the column header
-   3. Have a search input box above the table which will filter the list by the business name
-2. Clicking on the business name in the list will open a new page
-   1. This new page should query your API for the detailed data about the single business
-   2. Display the business name at the top
-   3. The location for the business should be placed as a marker inside of a google map (or other map library)
-   4. Display the list of campaigns in a table
+### Front-end
+* [Vue.js 3.0](https://vuejs.org/) 
+* [Vue Router](https://router.vuejs.org/)
+* [PrimeVue](https://primefaces.org/primevue/showcase/#/)
+* [vue-google-maps](https://vue-map.netlify.app/)
 
-## Backend requirements
-The backend API should be built using Express.js. The endpoints should be defined by you based off of the frontend requirements.
+### Backend
+* [Express.js](https://expressjs.com/)
 
-### Good luck and please let us know if you have any questions!
+## Initial Setup
 
-We will schedule time for you to come in and talk us through your completed project.
+### Clone This Repository
+
+If you have git installed, type the following into your terminal:
+
+```
+git clone https://github.com/amishpr/advisr-applicant-project
+```
+
+Else, download the zip file and unpack by clicking the green "Clone and download" button on the top right of the screen.
+
+### Starting Vue.js Client
+
+1. Open client folder
+
+Type the following into your terminal:
+
+```
+cd ./advisr-applicant-project/client
+```
+2. Install npm modules
+```
+npm install
+```
+3. Start client
+```
+npm serve
+```
+4. Open the following url:
+```
+http://localhost:8000/
+```
+
+### Starting Express.js Server
+
+1. Open client folder
+
+Type the following into your terminal:
+
+```
+cd ./advisr-applicant-project/server
+```
+2. Install npm modules
+```
+npm install
+```
+3. Start server
+```
+npm start
+```
+4. Open the following url to view all business data:
+```
+http://localhost:3000/business/all
+```
+
+5. To view a specific business id pass in its id:
+```
+http://localhost:3000/business/1
+```
