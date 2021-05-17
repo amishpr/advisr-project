@@ -1,15 +1,20 @@
-# Advisr Applicant Project
-<img src="https://github.com/amishpr/advisr-project/blob/main/screenshots/advisr-logo-white.png" height="90">
+# Advisr Project
+<img src="https://github.com/amishpr/advisr-project/blob/main/client/src/assets/advisrlogo-nobg.png" height="200">
 
+## Live
+
+Go to the following url to use the application:
+
+https://advisr-project.herokuapp.com/#/
 ## Overview
- This project takes JSON file with business data and returns it with Express.js and displays the data using Vue.js.
+This project displays information about certain business and shows off the Google Map location. The main objective of this project was to use Express.js to return a JSON file with business data and then display it using Vue.js.
 
 ## Features
 
-* View all businesses in data
+* View all businesses in a table
 * Search and sort through fields of the business data
 * Displays a detailed page with all related business information including an interactive Google Map window
-* Calculate Sales Ve
+* Calculate sales velocity for each business
 
 ## Technologies
 
