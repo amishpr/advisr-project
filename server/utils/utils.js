@@ -1,7 +1,7 @@
 const utils = {
     averageCampaignBudget: (campaignList) => {
 
-        if (!campaignList) {
+        if (!campaignList || campaignList.length === 0) {
             return 0
         }
     
