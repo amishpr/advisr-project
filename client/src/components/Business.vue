@@ -127,7 +127,14 @@ export default {
       this.location = data.location;
       this.averageCampaignBudget = data.averageCampaignBudget;
       this.numberOfCampaigns = data.numberOfCampaigns.toString();
-      this.calculateSalesVelocity();
+
+      if (this.numberOfCampaigns == 0) {
+        this.winRate = 0;
+        this.salesLength = 0;
+        this.salesVelocity = 0;
+      } else {
+        this.calculateSalesVelocity();
+      }
     });
   },
   methods: {
