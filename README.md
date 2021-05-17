@@ -72,7 +72,7 @@ npm serve
 ```
 4. Open the following url:
 ```
-http://localhost:8000/
+http://localhost:8080/
 ```
 
 ### Starting Express.js Server
