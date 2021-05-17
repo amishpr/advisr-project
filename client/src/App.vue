@@ -1,6 +1,6 @@
 <template>
   <div id="nav"></div>
-  <img alt="Advisr logo" height="300" src="./assets/advisrlogo.png" />
+  <img alt="Advisr logo" height="200" src="./assets/advisrlogo-nobg.png" />
   <TabMenu :model="items" />
   <router-view />
 </template>
