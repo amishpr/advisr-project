@@ -54,6 +54,16 @@
             map-type-id="terrain"
             style="height: 100%"
           >
+            <GMapCluster>
+              <GMapMarker
+                  :key="index"
+                  v-for="(m, index) in markers"
+                  :position="m.position"
+                  :clickable="true"
+                  :draggable="true"
+                  @click="center=m.position"
+              />
+            </GMapCluster>
           </GMapMap>
         </div>
       </div>
@@ -125,6 +135,7 @@ export default {
       winRate: 0.25,
       salesLength: 30,
       salesVelocity: 0,
+      markers: [ { position: { lat: 51.093048, lng: 6.842120 }, } ]
     };
   },
   created() {
@@ -136,6 +147,7 @@ export default {
       this.category = data.category;
       this.campaigns = data.campaigns;
       this.location = data.location;
+      this.markers[0].position = data.location;
       this.averageCampaignBudget = data.averageCampaignBudget;
       this.numberOfCampaigns = data.numberOfCampaigns.toString();
 
