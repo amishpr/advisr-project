@@ -7,13 +7,13 @@ Go to the following url to use the application:
 
 https://advisr-project.herokuapp.com/#/
 ## Overview
-This project displays information about certain business and shows off the Google Map location. The main objective of this project was to use Express.js to return a JSON file with business data and then display it using Vue.js.
+This project displays information about certain business and shows the Google Map location. The main objective of this project was to use Express.js to return a JSON file with business data and then display it using Vue.js.
 
 ## Features
 
 * View all businesses in a table
-* Search and sort through fields of the business data
-* Displays a detailed page with all related business information including an interactive Google Map window
+* Search and sort through all the different fields in the business data
+* Display a detailed page with all related business information including an interactive Google Map window
 * Calculate sales velocity for each business
 
 ## Technologies
@@ -57,7 +57,7 @@ Else, download the zip file and unpack by clicking the green "Clone and download
 
 1. Open client folder
 
-Type the following into your terminal:
+    Type the following into your terminal:
 
 ```
 cd ./advisr-applicant-project/client
@@ -79,7 +79,7 @@ http://localhost:8080/
 
 1. Open client folder
 
-Type the following into your terminal:
+    Type the following into your terminal:
 
 ```
 cd ./advisr-applicant-project/server
