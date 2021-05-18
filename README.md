@@ -7,7 +7,7 @@ Go to the following url to use the application:
 
 https://advisr-project.herokuapp.com/#/
 ## Overview
-This project displays information about certain business and shows the Google Map location. The main objective of this project was to use Express.js to return a JSON file with business data and then display it using Vue.js.
+This project displays information about certain businesses. The page includes the name, category, number of campaigns, average campaign budget, sales velocity, and a Google Maps window of the business location. The main objective of this project was to use Express.js to return a JSON file with business data and then display it using Vue.js.
 
 ## Features
 
