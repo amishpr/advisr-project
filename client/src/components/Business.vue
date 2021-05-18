@@ -56,12 +56,12 @@
           >
             <GMapCluster>
               <GMapMarker
-                  :key="index"
-                  v-for="(m, index) in markers"
-                  :position="m.position"
-                  :clickable="true"
-                  :draggable="true"
-                  @click="center=m.position"
+                :key="index"
+                v-for="(m, index) in markers"
+                :position="m.position"
+                :clickable="true"
+                :draggable="true"
+                @click="center = m.position"
               />
             </GMapCluster>
           </GMapMap>
@@ -135,7 +135,7 @@ export default {
       winRate: 0.25,
       salesLength: 30,
       salesVelocity: 0,
-      markers: [ { position: { lat: 51.093048, lng: 6.842120 }, } ]
+      markers: [{ position: { lat: 51.093048, lng: 6.84212 } }],
     };
   },
   created() {
