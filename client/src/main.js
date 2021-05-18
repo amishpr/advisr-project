@@ -10,6 +10,7 @@ import Button from "primevue/button";
 import InputText from "primevue/inputtext";
 import Listbox from "primevue/listbox";
 import TabMenu from "primevue/tabmenu";
+import Menubar from "primevue/menubar";
 import Chip from "primevue/chip";
 import Card from "primevue/card";
 import VueGoogleMaps from "@fawmi/vue-google-maps";
@@ -33,6 +34,7 @@ app.component("Button", Button);
 app.component("InputText", InputText);
 app.component("Listbox", Listbox);
 app.component("TabMenu", TabMenu);
+app.component("Menubar", Menubar);
 app.component("Chip", Chip);
 app.component("Card", Card);
 

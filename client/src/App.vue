@@ -1,15 +1,29 @@
 <template>
-  <div id="nav"></div>
-  <img alt="Advisr logo" height="200" src="./assets/advisrlogo-nobg.png" />
-  <TabMenu :model="items" />
-  <router-view />
+  <div id="nav">
+    <Menubar :model="headerItems" />
+    <img alt="Advisr logo" height="200" src="./assets/advisrlogo-nobg.png" />
+    <router-view />
+    <Menubar :model="footerItems" />
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      items: [{ label: "Home", icon: "pi pi-fw pi-home", to: "/" }],
+      headerItems: [{ label: "Home", icon: "pi pi-fw pi-home", to: "/" }],
+      footerItems: [
+        {
+          label: "Created by Amish Prajapati",
+          icon: "pi pi-fw pi-user",
+          url: "https://github.com/amishpr/",
+        },
+        {
+          label: "GitHub Repo",
+          icon: "pi pi-fw pi-github",
+          url: "https://github.com/amishpr/advisr-project",
+        },
+      ],
     };
   },
 };
@@ -31,6 +45,10 @@ export default {
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+}
+
+#graytext {
+  color: #777777;
 }
 
 #nav a.router-link-exact-active {

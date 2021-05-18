@@ -6,16 +6,23 @@
           <h1>{{ this.name }}</h1>
         </div>
         <div class="p-col-12">
-          <Chip :label="this.category" icon="pi pi-tag" class="p-m-2" />
+          <Chip
+            :label="this.category"
+            icon="pi pi-tag"
+            class="p-m-2"
+            style="background-color: #dcd2f0"
+          />
           <Chip
             :label="'$' + this.averageCampaignBudget"
             icon="pi pi-money-bill"
             class="p-m-2"
+            style="background-color: #dcd2f0"
           />
           <Chip
             :label="this.numberOfCampaigns"
             icon="pi pi-book"
             class="p-m-2"
+            style="background-color: #dcd2f0"
           />
         </div>
       </div>
@@ -52,48 +59,48 @@
       </div>
       <div class="p-grid">
         <div class="p-col-3">
-          <Card>
+          <Card style="background-color: #c5dcff">
             <template #title>
               <i class="pi pi-book" />
               {{ this.numberOfCampaigns }} Campaigns
             </template>
-            <template #subtitle> Number of Opportunities </template>
+            <template #footer> Number of Opportunities </template>
           </Card>
         </div>
         <div class="p-col-3">
-          <Card>
+          <Card style="background-color: #c5f2fb">
             <template #title>
               <i class="pi pi-money-bill" />
               {{ formatMoney(this.averageCampaignBudget) }}
             </template>
-            <template #subtitle> Average Deal Size </template>
+            <template #footer> Average Deal Size </template>
           </Card>
         </div>
         <div class="p-col-3">
-          <Card>
+          <Card style="background-color: #fff0c3">
             <template #title>
               <i class="pi pi-star-o" />
               {{ this.winRate * 100 }}%
             </template>
-            <template #subtitle> Win Rate </template>
+            <template #footer> Win Rate </template>
           </Card>
         </div>
         <div class="p-col-3">
-          <Card>
+          <Card style="background-color: #ffe0c7">
             <template #title>
               <i class="pi pi-calendar" />
               {{ this.salesLength }} Days
             </template>
-            <template #subtitle> Average Sales Cycle Length </template>
+            <template #footer> Average Sales Cycle Length </template>
           </Card>
         </div>
         <div class="p-col-12">
-          <Card>
+          <Card style="background-color: #c9f2e6">
             <template #title>
               <i class="pi pi-money-bill" />
               {{ formatMoney(this.salesVelocity) }}
             </template>
-            <template #subtitle> Sales Velocity </template>
+            <template #footer> Sales Velocity </template>
           </Card>
         </div>
       </div>
